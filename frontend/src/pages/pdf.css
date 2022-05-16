@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+button{
+    height: 50px;
+    width: 100px;
+    font-family: 'Merriweather', serif;
+
+}
+.img{
+    background-image: url("../images/WhatsApp Image 2022-03-16 at 11.19.22 AM.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+}
+.text-center{
+    font-size: 30px;
+    padding: 20px;
+    color: blueviolet;
+}
+.table{
+   margin-left: 200px;
+    width: 70%;
+ 
+}
+thead{
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+tbody{
+    font-size:18;
+    font-family: 'Merriweather', serif;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row;
+    margin-top: 50px;
+}
+.footer .frist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+
+}
+.footer .frist span{
+    background-color: antiquewhite;
+    padding: 0;
+
+}
+.footer h2{
+    font-size: 25px;
+}
+.footer .last{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: column;
+  
+  
+}
+
+.footer .last span{
+    padding: 10px;
+    font-size: 20px;
+}
+.footer .last .tt{
+    background-color: blueviolet;
+    border-radius: 50px;
+    color: white;
+}
